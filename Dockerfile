@@ -3,5 +3,5 @@ WORKDIR /add the path/
 COPY . .
 EXPOSE 1001
 RUN gcc -o server server.c
-ENV PATH /addthe path/:$PATH
+ENV PATH /add the path/:$PATH
 ENTRYPOINT ["server", "1001"]
